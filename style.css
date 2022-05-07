@@ -1,0 +1,255 @@
+body
+{
+font-family: Tahoma, Arial, Verdana;
+background-color: #333;
+margin: 0
+}
+
+/* Schriftzug */
+#logo
+{
+background-image: url('../images/schriftzug.jpg');
+background-repeat: no-repeat;
+height: 150px;
+width: 20px;
+position: absolute;
+left: 0; top: 0
+}
+
+/* Header */
+#header
+{
+background-image: url('../images/header.jpg');
+background-repeat: no-repeat;
+height: 136px
+}
+
+/* horizontale Navigation */
+#navi
+{
+background-image: url('../images/rand.jpg');
+background-repeat: repeat-y
+}
+#nav
+{
+border-left: 1px solid #424242;
+margin: 0 0 0 170px
+}
+#nav td
+{
+text-align: center;
+width: 100px;
+height: 24px;
+border-top: 1px solid #424242;
+border-right: 1px solid #424242
+}
+#nav a:link, #nav a:active, #nav a:visited
+{
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #9B6940;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-decoration: none
+}
+#nav a:hover
+{ 
+color: #ccc;
+text-transform: none
+}
+
+/* Content */
+#content
+{
+width: 980px;
+margin: 0
+}
+
+/* vertikale Navigation */
+#nav_ver
+{
+background-image: url('../images/rand.jpg');
+background-repeat: repeat-y;
+width: 170px
+}
+#nav_ver a:link, #nav_ver a:active, #nav_ver a:visited
+{
+display: block;
+padding-left: 5px;
+font-size: 14px;
+letter-spacing: 1px;
+margin-bottom: 5px;
+line-height: 24px;
+color: #9B6940;
+text-decoration: none;
+background-image: url('../images/nav.gif');
+background-repeat: repeat-y;
+border-top: 1px solid #333;
+border-bottom: 1px solid #333
+}
+#nav_ver a:hover
+{
+color: #ccc;
+border-top: 1px solid #000;
+border-bottom: 1px solid #000;
+background-image: url('../images/nav-hov.gif');
+background-repeat: repeat-y
+}
+
+/* Inhaltsspalte */
+#inhalt
+{
+background-image: url('../images/bg-inh.jpg');
+background-repeat: repeat-y
+}
+
+/* allgemeine Links im Text */
+#inhalt a:link, #inhalt a:active, #inhalt a:visited
+{
+font-weight: bold;
+text-decoration: none;
+color: #9B6940
+}
+#inhalt a:hover
+{
+color: #ccc;
+text-decoration: underline
+}
+
+/* Absätze, Überschriften der Inhaltsspalte */
+#inhalt h1
+{
+margin: 0 10px;
+font-size: 16px;
+line-height: 40px;
+font-family: Tahoma, Arial, Verdana;
+color: #ccc;
+text-transform: uppercase;
+letter-spacing: 5px
+}
+#inhalt h2
+{
+font-family: Tahoma, Arial, Verdana;
+font-size: 14px;
+letter-spacing: 1px;
+word-spacing: 5px;
+margin: 10px 0 0 0;
+color: #9B6940;
+text-align: left;
+margin-left: 10px
+}
+#inhalt p
+{
+margin: 0 10px;
+color: #ccc;
+text-align: justify;
+padding-bottom: 15px;
+line-height: 150%;
+font-size: 14px
+}
+
+/* rechte Tabellenspalte */
+#spalte_re
+{
+width: 200px
+}
+
+#spalte_re p a:link, #spalte_re p a:active, #spalte_re p a:visited
+{
+font-weight: bold;
+text-decoration: none;
+color: #9B6940
+}
+#spalte_re p a:hover
+{
+color: #ccc;
+text-decoration: underline
+}
+
+/* Formatierung Beispiel-Suchformular */
+form
+{
+margin: 0
+}
+.such
+{
+padding: 10px
+}
+.suchbox, .suchbutton
+{
+font-family: Tahoma, Arial, Verdana;
+font-size: 11px
+}
+.suchbox
+{
+background-color: #333;
+color: #9B6940;
+border: 1px solid #9B6940
+}
+.suchbutton
+{
+background-color: #9B6940;
+color: #fff;
+border: none
+}
+
+/* Navigations-Menü in der rechten spalte */
+.sp_nav
+{
+margin: 5px 0 10px 10px
+}
+.sp_nav a:link, .sp_nav a:active, .sp_nav a:visited
+{
+display: block;
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 16px;
+color: #9B6940;
+text-decoration: underline
+}
+.sp_nav a:hover
+{
+text-decoration: none;
+color: #ccc
+}
+
+/* Absätze, Überschriften der rechten Spalte */
+#spalte_re h1
+{
+margin: 10px 0 0 10px;
+color: #9B6940;
+line-height: 150%;
+font-size: 12px;
+border-bottom: 1px solid #9B6940;
+padding-bottom: 2px
+}
+#spalte_re p
+{
+margin: 0 0 10px 10px;
+text-align: justify;
+color: #999;
+line-height: 150%;
+font-size: 11px
+}
+
+/* Footer */
+#fuss
+{
+font-size: 11px;
+color: #fff;
+margin: 0;
+padding-left: 170px;
+background-image: url('../images/rand.jpg');
+background-repeat: repeat-y;
+line-height: 32px
+}
+#fuss a:link, #fuss a:active, #fuss a:visited
+{
+color: #ccc
+}
+#fuss a:hover
+{
+color: #fff;
+text-decoration: none
+}
